@@ -1,0 +1,17 @@
+To use flexbox, use the following code in the wrapping container:
+    display: flex;
+
+Flex Direction:
+    flex-direction: row; (default)
+                    row-reverse;
+                    column;
+                    column-reverse;
+
+Flex Wrap:
+    flex-wrap: nowrap; (default)
+                wrap;
+                wrap-reverse;
+
+A shorthand version to use direction and wrap would be:
+    flex-flow:  row wrap;
+                column wrap;
